@@ -1,0 +1,60 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 20px;
+background-color: blanchedalmond;
+}
+
+h1 {
+text-align: center;
+}
+
+.todo-container {
+max-width: 600px;
+margin: 0 auto;
+background: white;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+}
+
+li {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+border-bottom: 1px solid #ddd;
+}
+
+.completed {
+text-decoration: line-through;
+color: gray;
+}
+
+input[type="text"] {
+flex: 1;
+padding: 10px;
+margin-right: 10px;
+min-width: 200px;
+}
+
+button {
+padding: 10px;
+cursor: pointer;
+}
+
+.filter {
+margin-bottom: 20px;
+display: flex;
+justify-content: space-between;
+}
+
+.filter button {
+flex: 1;
+margin: 0 5px;
+}
